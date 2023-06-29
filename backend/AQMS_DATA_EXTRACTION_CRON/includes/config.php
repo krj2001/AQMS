@@ -12,14 +12,14 @@ $dbpass="";
 $host="localhost";
 $db="lanandan_idealab";
 $mysqli=new mysqli($host,$dbuser,$dbpass,$db);
-if($mysqli)
-{
-echo "connected";
-}
-else
-{
+// if($mysqli)
+// {
+// echo "connected";
+// }
+// else
+// {
     
-    echo "error";exit;
+//     echo "error";exit;
     
-}
+// }
 ?>

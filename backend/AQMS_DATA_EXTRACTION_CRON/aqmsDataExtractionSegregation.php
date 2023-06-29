@@ -551,10 +551,11 @@ $i = 0;
 
 while(1){
     $i++;
+    echo $i;
     date_default_timezone_set('Asia/Kolkata');
     $txt =  "Date : ".  date('m/d/Y h:i:s')." \n";
     $txt .=  "Iteration : ". $i;  
-    $filename='C:\xampp\htdocs\AQMS-28.06.2023\backend\AQMS_DATA_EXTRACTION_CRON\cron_log/cron_'.date('m-d-Y_h-i-s').'.txt';
+    $filename='C:\xampp\htdocs\AQMS\backend\AQMS_DATA_EXTRACTION_CRON\cron_log/cron_'.date('m-d-Y_h-i-s').'.txt';
     file_put_contents($filename, $txt);
     getValuesForAParameter($mysqli,$data_table,$parameterInfo,$moving_window_width,$device_mode);
     if($i == 3){
