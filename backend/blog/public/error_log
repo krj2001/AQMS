@@ -1,0 +1,27 @@
+[09-Aug-2022 11:54:57 Asia/Kolkata] PHP Fatal error:  Uncaught ErrorException: include(/home/idealab/public_html/IdeaLab/blog/vendor/composer/../nunomaduro/collision/src/Adapters/Laravel/IgnitionSolutionsRepository.php): Failed to open stream: No such file or directory in /home/idealab/public_html/IdeaLab/blog/vendor/composer/ClassLoader.php:571
+Stack trace:
+#0 /home/idealab/public_html/IdeaLab/blog/vendor/composer/ClassLoader.php(571): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/home/i...', '/home/idealab/p...', 571)
+#1 /home/idealab/public_html/IdeaLab/blog/vendor/composer/ClassLoader.php(571): include()
+#2 /home/idealab/public_html/IdeaLab/blog/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile('/home/idealab/p...')
+#3 /home/idealab/public_html/IdeaLab/blog/vendor/nunomaduro/collision/src/Adapters/Laravel/CollisionServiceProvider.php(50): Composer\Autoload\ClassLoader->loadClass('NunoMaduro\\Coll...')
+#4 /home/idealab/public_html/IdeaLab/blog/vendor/laravel/framework/src/Illuminate/Container/Container.php(873): NunoMaduro\Collision\Adapters\Laravel\CollisionServiceProvider->NunoMaduro\Collision\Adapters\Laravel\{closure}(Object(Illuminate\Foundation\Application), Array)
+#5 /home/idealab/public_html/IdeaLab/blog/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build(Object(Closure))
+#6 /home/idealab/public_html/IdeaLab/blog/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve('NunoMaduro\\Coll...', Array, true)
+#7 /home/idealab/public_html/IdeaLab/blog/vendor/laravel/framework/src/Illuminate/Container/Container.php(694): Illuminate\Foundation\Application->resolve('NunoMaduro\\Coll...', Array)
+#8 /home/idealab/public_html/IdeaLab/blog/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(836): Illuminate\Container\Container->make('NunoMaduro\\Coll...', Array)
+#9 /home/idealab/public_html/IdeaLab/blog/vendor/nunomaduro/collision/src/Adapters/Laravel/ExceptionHandler.php(65): Illuminate\Foundation\Application->make('NunoMaduro\\Coll...')
+#10 /home/idealab/public_html/IdeaLab/blog/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(182): NunoMaduro\Collision\Adapters\Laravel\ExceptionHandler->renderForConsole(Object(Symfony\Component\Console\Output\ConsoleOutput), Object(ErrorException))
+#11 /home/idealab/public_html/IdeaLab/blog/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(168): Illuminate\Foundation\Bootstrap\HandleExceptions->renderForConsole(Object(ErrorException))
+#12 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(ErrorException))
+#13 {main}
+  thrown in /home/idealab/public_html/IdeaLab/blog/vendor/composer/ClassLoader.php on line 571
+[09-Aug-2022 11:54:57 Asia/Kolkata] PHP Fatal error:  Uncaught ErrorException: include(/home/idealab/public_html/IdeaLab/blog/vendor/composer/../symfony/error-handler/Error/FatalError.php): Failed to open stream: No such file or directory in /home/idealab/public_html/IdeaLab/blog/vendor/composer/ClassLoader.php:571
+Stack trace:
+#0 /home/idealab/public_html/IdeaLab/blog/vendor/composer/ClassLoader.php(571): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/home/i...', '/home/idealab/p...', 571)
+#1 /home/idealab/public_html/IdeaLab/blog/vendor/composer/ClassLoader.php(571): include()
+#2 /home/idealab/public_html/IdeaLab/blog/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile('/home/idealab/p...')
+#3 /home/idealab/public_html/IdeaLab/blog/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(217): Composer\Autoload\ClassLoader->loadClass('Symfony\\Compone...')
+#4 /home/idealab/public_html/IdeaLab/blog/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(204): Illuminate\Foundation\Bootstrap\HandleExceptions->fatalErrorFromPhpError(Array, 0)
+#5 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleShutdown()
+#6 {main}
+  thrown in /home/idealab/public_html/IdeaLab/blog/vendor/composer/ClassLoader.php on line 571

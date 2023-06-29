@@ -1,0 +1,8 @@
+[10-Aug-2022 13:20:27 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/idealab/public_html/aideaLabs/blog/vendor/psr/log/src/LoggerInterface.php on line 30
+[10-Aug-2022 13:20:27 Asia/Kolkata] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[10-Aug-2022 13:20:27 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/idealab/public_html/aideaLabs/blog/vendor/psr/log/src/LoggerInterface.php on line 30
+[10-Aug-2022 13:20:27 Asia/Kolkata] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[10-Aug-2022 13:20:30 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/idealab/public_html/aideaLabs/blog/vendor/psr/log/src/LoggerInterface.php on line 30
+[10-Aug-2022 13:20:30 Asia/Kolkata] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[10-Aug-2022 13:20:30 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/idealab/public_html/aideaLabs/blog/vendor/psr/log/src/LoggerInterface.php on line 30
+[10-Aug-2022 13:20:30 Asia/Kolkata] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0

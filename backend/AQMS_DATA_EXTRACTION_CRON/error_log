@@ -1,0 +1,275 @@
+[30-Jul-2022 05:40:22 UTC] PHP Warning:  Undefined variable $dbname in /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/databaseBackup.php on line 10
+[30-Jul-2022 06:13:58 UTC] PHP Warning:  Undefined variable $mysqlHostName in /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/databaseBackup.php on line 18
+[30-Jul-2022 06:13:58 UTC] PHP Warning:  Undefined variable $mysqlUserName in /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/databaseBackup.php on line 18
+[30-Jul-2022 06:13:58 UTC] PHP Warning:  Undefined variable $mysqlPassword in /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/databaseBackup.php on line 18
+[30-Jul-2022 06:13:58 UTC] PHP Warning:  Undefined variable $DbName in /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/databaseBackup.php on line 18
+[30-Jul-2022 06:13:58 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'dl67hokykzjk'@'localhost' (using password: NO) in /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/databaseBackup.php on line 22
+[30-Jul-2022 06:13:58 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/databaseBackup.php:23
+Stack trace:
+#0 /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/databaseBackup.php(23): mysqli->select_db()
+#1 /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/databaseBackup.php(18): Export_Database()
+#2 {main}
+  thrown in /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/databaseBackup.php on line 23
+[30-Jul-2022 12:13:30 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - string in /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php:356
+Stack trace:
+#0 /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php(288): scalingValue()
+#1 /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php(827): getValuesForAParameter()
+#2 /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php(1132): extractAQMSParameterData()
+#3 {main}
+  thrown in /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php on line 356
+[30-Jul-2022 07:04:31 UTC] PHP Fatal error:  Uncaught ArgumentCountError: file_put_contents() expects at least 2 arguments, 1 given in /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/databaseBackup.php:187
+Stack trace:
+#0 /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/databaseBackup.php(187): file_put_contents()
+#1 /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/databaseBackup.php(111): Export_Database()
+#2 {main}
+  thrown in /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/databaseBackup.php on line 187
+[30-Jul-2022 07:05:39 UTC] PHP Fatal error:  Uncaught Error: Call to a member function setFrom() on null in /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/databaseBackup.php:42
+Stack trace:
+#0 /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/databaseBackup.php(211): sendAlertMailAndAlertNumber->sendMails()
+#1 /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/databaseBackup.php(111): Export_Database()
+#2 {main}
+  thrown in /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/databaseBackup.php on line 42
+[30-Jul-2022 07:08:02 UTC] PHP Fatal error:  Uncaught Error: Call to a member function setFrom() on null in /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/databaseBackup.php:42
+Stack trace:
+#0 /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/databaseBackup.php(211): sendAlertMailAndAlertNumber->sendMails()
+#1 /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/databaseBackup.php(111): Export_Database()
+#2 {main}
+  thrown in /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/databaseBackup.php on line 42
+[30-Jul-2022 07:10:10 UTC] PHP Fatal error:  Uncaught Error: Call to a member function setFrom() on null in /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/databaseBackup.php:42
+Stack trace:
+#0 /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/databaseBackup.php(216): sendAlertMailAndAlertNumber->sendMails()
+#1 /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/databaseBackup.php(111): Export_Database()
+#2 {main}
+  thrown in /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/databaseBackup.php on line 42
+[30-Jul-2022 07:11:37 UTC] PHP Fatal error:  Uncaught Error: Call to a member function setFrom() on null in /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/databaseBackup.php:42
+Stack trace:
+#0 /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/databaseBackup.php(216): sendAlertMailAndAlertNumber->sendMails()
+#1 /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/databaseBackup.php(111): Export_Database()
+#2 {main}
+  thrown in /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/databaseBackup.php on line 42
+[30-Jul-2022 07:15:12 UTC] PHP Fatal error:  Uncaught Error: Call to a member function setFrom() on null in /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/databaseBackup.php:42
+Stack trace:
+#0 /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/databaseBackup.php(215): sendAlertMailAndAlertNumber->sendMails()
+#1 /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/databaseBackup.php(111): Export_Database()
+#2 {main}
+  thrown in /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/databaseBackup.php on line 42
+[06-Aug-2022 17:04:58 Asia/Kolkata] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php:839
+Stack trace:
+#0 /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php(839): mysqli_query()
+#1 /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php(1115): extractAQMSParameterData()
+#2 {main}
+  thrown in /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php on line 839
+[06-Aug-2022 17:17:20 Asia/Kolkata] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function InsertAlertCronData(), 16 passed in /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php on line 431 and exactly 18 expected in /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php:655
+Stack trace:
+#0 /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php(431): InsertAlertCronData()
+#1 /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php(291): alertMessage()
+#2 /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php(864): getValuesForAParameter()
+#3 /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php(1116): extractAQMSParameterData()
+#4 {main}
+  thrown in /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php on line 655
+[06-Aug-2022 17:21:12 Asia/Kolkata] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php:839
+Stack trace:
+#0 /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php(839): mysqli_query()
+#1 /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php(1116): extractAQMSParameterData()
+#2 {main}
+  thrown in /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php on line 839
+[06-Aug-2022 17:22:34 Asia/Kolkata] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php:839
+Stack trace:
+#0 /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php(839): mysqli_query()
+#1 /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php(1116): extractAQMSParameterData()
+#2 {main}
+  thrown in /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php on line 839
+[06-Aug-2022 18:03:06 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - string in /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php:356
+Stack trace:
+#0 /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php(288): scalingValue()
+#1 /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php(864): getValuesForAParameter()
+#2 /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php(1117): extractAQMSParameterData()
+#3 {main}
+  thrown in /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php on line 356
+[06-Aug-2022 18:03:28 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - string in /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php:356
+Stack trace:
+#0 /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php(288): scalingValue()
+#1 /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php(864): getValuesForAParameter()
+#2 /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php(1117): extractAQMSParameterData()
+#3 {main}
+  thrown in /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php on line 356
+[06-Aug-2022 18:04:27 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - string in /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php:356
+Stack trace:
+#0 /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php(288): scalingValue()
+#1 /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php(864): getValuesForAParameter()
+#2 /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php(1117): extractAQMSParameterData()
+#3 {main}
+  thrown in /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php on line 356
+[06-Aug-2022 18:13:30 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - string in /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php:356
+Stack trace:
+#0 /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php(288): scalingValue()
+#1 /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php(864): getValuesForAParameter()
+#2 /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php(1119): extractAQMSParameterData()
+#3 {main}
+  thrown in /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php on line 356
+[06-Aug-2022 18:14:05 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - string in /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php:356
+Stack trace:
+#0 /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php(288): scalingValue()
+#1 /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php(864): getValuesForAParameter()
+#2 /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php(1119): extractAQMSParameterData()
+#3 {main}
+  thrown in /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php on line 356
+[06-Aug-2022 18:16:29 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - string in /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php:356
+Stack trace:
+#0 /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php(288): scalingValue()
+#1 /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php(864): getValuesForAParameter()
+#2 /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php(1119): extractAQMSParameterData()
+#3 {main}
+  thrown in /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php on line 356
+[06-Aug-2022 18:24:45 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - string in /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php:357
+Stack trace:
+#0 /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php(288): scalingValue()
+#1 /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php(865): getValuesForAParameter()
+#2 /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php(1121): extractAQMSParameterData()
+#3 {main}
+  thrown in /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php on line 357
+[06-Aug-2022 18:27:07 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - string in /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php:357
+Stack trace:
+#0 /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php(288): scalingValue()
+#1 /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php(865): getValuesForAParameter()
+#2 /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php(1121): extractAQMSParameterData()
+#3 {main}
+  thrown in /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php on line 357
+[07-Aug-2022 10:54:30 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - string in /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php:357
+Stack trace:
+#0 /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php(288): scalingValue()
+#1 /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php(866): getValuesForAParameter()
+#2 /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php(1126): extractAQMSParameterData()
+#3 {main}
+  thrown in /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php on line 357
+[07-Aug-2022 10:58:08 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - string in /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php:356
+Stack trace:
+#0 /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php(288): scalingValue()
+#1 /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php(865): getValuesForAParameter()
+#2 /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php(1125): extractAQMSParameterData()
+#3 {main}
+  thrown in /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php on line 356
+[07-Aug-2022 11:17:34 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Object of class AQMi_Parameter_info could not be converted to string in /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php:932
+Stack trace:
+#0 /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php(881): compute_STEL()
+#1 /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php(1130): extractAQMSParameterData()
+#2 {main}
+  thrown in /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php on line 932
+[07-Aug-2022 11:18:14 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Object of class AQMi_Parameter_info could not be converted to string in /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php:932
+Stack trace:
+#0 /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php(881): compute_STEL()
+#1 /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php(1130): extractAQMSParameterData()
+#2 {main}
+  thrown in /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php on line 932
+[07-Aug-2022 11:18:58 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - string in /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php:356
+Stack trace:
+#0 /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php(985): scalingValue()
+#1 /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php(881): compute_STEL()
+#2 /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php(1130): extractAQMSParameterData()
+#3 {main}
+  thrown in /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php on line 356
+[07-Aug-2022 11:20:09 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - string in /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php:356
+Stack trace:
+#0 /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php(984): scalingValue()
+#1 /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php(881): compute_STEL()
+#2 /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php(1129): extractAQMSParameterData()
+#3 {main}
+  thrown in /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php on line 356
+[07-Aug-2022 11:20:56 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - string in /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php:356
+Stack trace:
+#0 /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php(984): scalingValue()
+#1 /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php(881): compute_STEL()
+#2 /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php(1129): extractAQMSParameterData()
+#3 {main}
+  thrown in /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php on line 356
+[07-Aug-2022 11:22:19 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - string in /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php:356
+Stack trace:
+#0 /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php(984): scalingValue()
+#1 /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php(881): compute_STEL()
+#2 /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php(1129): extractAQMSParameterData()
+#3 {main}
+  thrown in /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php on line 356
+[07-Aug-2022 11:23:59 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - string in /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php:356
+Stack trace:
+#0 /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php(984): scalingValue()
+#1 /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php(881): compute_STEL()
+#2 /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php(1129): extractAQMSParameterData()
+#3 {main}
+  thrown in /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php on line 356
+[07-Aug-2022 11:31:16 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - string in /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php:356
+Stack trace:
+#0 /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php(984): scalingValue()
+#1 /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php(881): compute_STEL()
+#2 /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php(1129): extractAQMSParameterData()
+#3 {main}
+  thrown in /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php on line 356
+[07-Aug-2022 11:31:23 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - string in /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php:356
+Stack trace:
+#0 /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php(984): scalingValue()
+#1 /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php(881): compute_STEL()
+#2 /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php(1129): extractAQMSParameterData()
+#3 {main}
+  thrown in /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php on line 356
+[07-Aug-2022 11:31:55 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - string in /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php:356
+Stack trace:
+#0 /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php(984): scalingValue()
+#1 /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php(881): compute_STEL()
+#2 /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php(1129): extractAQMSParameterData()
+#3 {main}
+  thrown in /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php on line 356
+[07-Aug-2022 11:32:12 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - string in /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php:356
+Stack trace:
+#0 /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php(984): scalingValue()
+#1 /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php(881): compute_STEL()
+#2 /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php(1129): extractAQMSParameterData()
+#3 {main}
+  thrown in /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php on line 356
+[07-Aug-2022 11:33:41 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - string in /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php:356
+Stack trace:
+#0 /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php(984): scalingValue()
+#1 /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php(881): compute_STEL()
+#2 /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php(1129): extractAQMSParameterData()
+#3 {main}
+  thrown in /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php on line 356
+[07-Aug-2022 11:34:38 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - string in /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php:356
+Stack trace:
+#0 /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php(984): scalingValue()
+#1 /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php(881): compute_STEL()
+#2 /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php(1129): extractAQMSParameterData()
+#3 {main}
+  thrown in /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php on line 356
+[07-Aug-2022 11:51:58 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - string in /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php:356
+Stack trace:
+#0 /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php(1063): scalingValue()
+#1 /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php(883): compute_tWA()
+#2 /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php(1126): extractAQMSParameterData()
+#3 {main}
+  thrown in /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php on line 356
+[07-Aug-2022 11:54:16 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - string in /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php:356
+Stack trace:
+#0 /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php(1063): scalingValue()
+#1 /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php(883): compute_tWA()
+#2 /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php(1126): extractAQMSParameterData()
+#3 {main}
+  thrown in /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php on line 356
+[07-Aug-2022 12:01:02 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - string in /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php:356
+Stack trace:
+#0 /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php(1063): scalingValue()
+#1 /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php(883): compute_tWA()
+#2 /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php(1130): extractAQMSParameterData()
+#3 {main}
+  thrown in /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php on line 356
+[07-Aug-2022 12:02:52 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - string in /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php:356
+Stack trace:
+#0 /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php(1063): scalingValue()
+#1 /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php(883): compute_tWA()
+#2 /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php(1130): extractAQMSParameterData()
+#3 {main}
+  thrown in /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php on line 356
+[07-Aug-2022 12:03:44 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - string in /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php:356
+Stack trace:
+#0 /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php(1063): scalingValue()
+#1 /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php(883): compute_tWA()
+#2 /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php(1130): extractAQMSParameterData()
+#3 {main}
+  thrown in /home/dl67hokykzjk/public_html/Aqms/AQMS_DATA_EXTRACTION_CRON/aqms_data_extraction_utilities.php on line 356

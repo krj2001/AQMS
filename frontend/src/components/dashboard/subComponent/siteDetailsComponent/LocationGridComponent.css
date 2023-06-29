@@ -1,0 +1,13 @@
+.MuiDataGrid-cell{
+    border: none !important;
+}
+.MuiDataGrid-footerContainer{
+    border: none !important;
+}
+.MuiDataGrid-columnHeaderTitleContainerContent{
+    font-family: customfont;
+    font-weight: 900 !important;
+    letter-spacing: 1px;
+    color: rgb(66, 66, 66) !important;
+    font-size: 14px; 
+}

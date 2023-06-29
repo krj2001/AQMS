@@ -1,0 +1,143 @@
+::-webkit-scrollbar { height: 7px; }
+::-webkit-scrollbar-thumb:horizontal{
+  background: rgb(185, 192, 197);
+  border-radius: 10px;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+span.otpSeparator {
+  margin: 17px 5px 0px 3px;
+}
+
+.customHome {
+  height: 100%;
+  margin: auto;
+}
+
+.todo-container {
+  background: rgb(255, 255, 255);
+  width: 40vw;
+  border-radius: 15px;
+  padding: 10px 10px;
+  color: rgb(0, 0, 0);
+  border: 3px solid rgb(36, 110, 194);
+}
+
+.task {
+  /* border: 1px solid white; */
+  border-radius: 5px;
+  padding: 0.1em;
+  margin: 0.3em; 
+  width:100%;
+  display: inline-block;
+  align-items: center;
+}
+.measureUnit{
+   display: inline-block;
+   text-align: center;
+   margin:0.5em;
+}
+
+
+.measureUnitBody{
+  float:right;
+}
+
+.task button{
+  background: rgb(12, 124, 251);
+  border-radius: 5px;
+  margin: 0px 5px;
+  padding: 3px 5px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  float: right;
+}
+
+.header {
+  margin: 0.1em;
+  font-size: 1.0em;
+  text-align: center;
+}
+.h-46vh {
+  height: 46vh;
+}
+
+.min-h-295 {
+  min-height: 295px;
+}
+@keyframes flash {
+  0% {
+    color:rgb(57, 108, 167);
+  }
+  25% {
+    color:rgb(50, 96, 126);
+  }
+  50% {
+    color:rgb(74, 107, 167);
+  }
+  75% {
+    color:rgb(57, 87, 143);
+  }
+  100% {
+    color:rgb(6, 25, 136);
+  }
+}
+.css-1jbbcbn-MuiDataGrid-columnHeaderTitle{
+  font-family: customfont;
+  font-weight: 900 !important;
+  letter-spacing: 1px;
+  color: rgb(66, 66, 66) !important;
+  font-size: 14px; 
+}
+
+
+.is_mobile_menu .sidebarMenu .sidebarTitle{
+  display: none !important;
+}
+.is_mobile_menu .sidebarMenu.mb-5  {
+  margin-bottom: 0 !important;
+}
+.is_mobile_menu .sidebarMenu .sidebarListItem {
+  padding: 20px 0px 0px 5px !important;
+}
+.is_mobile_menu .sidebarMenu .sidebarListItem span {
+  opacity: 0 !important;
+}
