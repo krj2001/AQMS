@@ -1,3 +1,3 @@
 <?php
-    $applicationLink = "https://wisething.in/AirQualityMonitoringSystem";
+    $applicationLink = "http://localhost/AirQualityMonitoringSystem";
 ?>

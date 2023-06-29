@@ -12,6 +12,10 @@ $dbpass="";
 $host="localhost";
 $db="lanandan_idealab";
 $mysqli=new mysqli($host,$dbuser,$dbpass,$db);
+
+// $base_url="http://localhost/"
+$base_url="http://localhost/"
+
 // if($mysqli)
 // {
 // echo "connected";

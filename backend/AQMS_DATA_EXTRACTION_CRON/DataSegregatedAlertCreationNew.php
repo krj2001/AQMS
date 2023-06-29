@@ -611,7 +611,7 @@ function InsertDataToAlertTable($conn,$a_date,$a_time,$companyCode,$deviceId,$se
                     }
                 }
                 
-                // $applicationLink = "https://wisething.in/AirQualityMonitoringSystem";
+                // $applicationLink = "http://localhost/AirQualityMonitoringSystem";
                 $mes = $Message." of ".$sensorTag;
                 
                 $mail = new PHPMailer(TRUE);

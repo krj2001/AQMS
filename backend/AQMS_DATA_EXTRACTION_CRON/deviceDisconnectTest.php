@@ -136,7 +136,7 @@ $con = new mysqli($host,$dbuser,$dbpass,$db);
     // {
         $email = "developer5@rdltech.in";
         $name = "vaishak";
-        $url = "https://wisething.in/AirQualityMonitoringSystem";
+        $url = "http://localhost/AirQualityMonitoringSystem";
        
         $mail = new PHPMailer(TRUE);
         
