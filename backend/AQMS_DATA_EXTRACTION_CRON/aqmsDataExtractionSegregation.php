@@ -551,7 +551,7 @@ $i = 0;
 
 while(1){
     $i++;
-    // echo $i;
+    echo $i;
     date_default_timezone_set('Asia/Kolkata');
     $txt =  "Date : ".  date('m/d/Y h:i:s')." \n";
     $txt .=  "Iteration : ". $i;  

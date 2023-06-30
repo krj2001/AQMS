@@ -287,10 +287,14 @@ $(document).ready(function()
     {
         
         var api="<?php echo $base_url;  ?>"+"/aideaLabs/api/customers";
+        // console.log("Hi"+api);
+        return;
         var dataObj={};
         var jsonObj={email:'abhishekshenoy7@gmail.com',password:'123456'};
         var str=JSON.stringify(jsonObj);
+        // console.log("Hi"+ str)
         var loginApi="<?php echo $base_url;  ?>"+"/aideaLabs/api/login";
+
         $.ajax({
         url:loginApi, 
         data:JSON.stringify(jsonObj),
