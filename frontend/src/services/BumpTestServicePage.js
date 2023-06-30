@@ -1,7 +1,7 @@
 const successCaseCode = [200, 201];
 
 const _fetchServiceBumpTestData = (PATH, serviceMethod, data, successCallback, errorCallBack) => {
-  // const END_POINT = 'https://localhost/backend/';
+  // const END_POINT = 'http://localhost/backend/';
   const END_POINT = process.env.REACT_APP_API_ENDPOINT;
   const body = { body: JSON.stringify(data) };
 

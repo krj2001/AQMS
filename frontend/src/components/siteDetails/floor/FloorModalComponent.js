@@ -40,7 +40,7 @@ function FloorModal({
     setFloorId(editData.id || '');
     setFloorStage(editData.floorStage || '');
     setFloorCords(editData.floorCords || '');
-    //setPreviewFloor(editData.floorMap ? `https://localhost/backend/blog/public/${editData.floorMap}` : previewImage);
+    //setPreviewFloor(editData.floorMap ? `http://localhost/backend/blog/public/${editData.floorMap}` : previewImage);
     setPreviewFloor(editData.floorMap ? `${process.env.REACT_APP_API_ENDPOINT}blog/public/${editData.floorMap}` : previewImage);
     // setFloorMap(editData.floorMap || '');
     // setFloorCords(editData.floorCords || []);

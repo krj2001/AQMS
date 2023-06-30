@@ -11,7 +11,7 @@ function Lab() {
   const { floorMap } = routeStateObject.state;
   const {locationDetails} = ApplicationStore().getStorage('userDetails');
   const {imageFloorURL} = locationDetails ;
- // const imgSrc = `https://localhost/backend/blog/public/${imageFloorURL || floorMap}`;
+ // const imgSrc = `http://localhost/backend/blog/public/${imageFloorURL || floorMap}`;
  const imgSrc = `${process.env.REACT_APP_API_ENDPOINT}blog/public/${imageFloorURL || floorMap}`; 
  return (
     <Container maxWidth={false} style={{ marginTop: '16px', height: 'auto', paddingLeft: '24px', paddingRight: '35px' }}>

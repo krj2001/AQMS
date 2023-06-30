@@ -285,11 +285,12 @@ $(document).ready(function()
     
     function loadCompany()
     {
-        var api="http://localhost/aideaLabs/api/customers";
+        
+        var api="<?php echo $base_url;  ?>"+"/aideaLabs/api/customers";
         var dataObj={};
         var jsonObj={email:'abhishekshenoy7@gmail.com',password:'123456'};
         var str=JSON.stringify(jsonObj);
-        var loginApi="http://localhost/aideaLabs/api/login";
+        var loginApi="<?php echo $base_url;  ?>"+"/aideaLabs/api/login";
         $.ajax({
         url:loginApi, 
         data:JSON.stringify(jsonObj),
@@ -307,12 +308,12 @@ $(document).ready(function()
     
     function loadlocation(dataObj)
     {
-        var api="http://localhost/aideaLabs/api/search";
+        var api="<?php echo $base_url;  ?>"+"/aideaLabs/api/search";
         var companyId = $("#company").val();
         //alert(companyId);
         var jsonObj={email:'abhishekshenoy7@gmail.com',password:'123456'};
         var str=JSON.stringify(jsonObj);
-        var loginApi="http://localhost/aideaLabs/api/login";
+        var loginApi="<?php echo $base_url;  ?>"+"/aideaLabs/api/login";
         $.ajax({
         url:loginApi, 
         data:JSON.stringify(jsonObj),
@@ -328,12 +329,12 @@ $(document).ready(function()
     
     function loadBranch(dataObj)
     {
-        var api="http://localhost/aideaLabs/api/search";
+        var api="<?php echo $base_url;  ?>"+"/aideaLabs/api/search";
         var companyId = $("#company").val();
         //alert(companyId);
         var jsonObj={email:'abhishekshenoy7@gmail.com',password:'123456'};
         var str=JSON.stringify(jsonObj);
-        var loginApi="http://localhost/aideaLabs/api/login";
+        var loginApi="<?php echo $base_url;  ?>"+"/aideaLabs/api/login";
         $.ajax({
         url:loginApi, 
         data:JSON.stringify(jsonObj),
@@ -349,12 +350,12 @@ $(document).ready(function()
     
     function loadFacility(dataObj)
     {
-        var api="http://localhost/aideaLabs/api/search";
+        var api="<?php echo $base_url;  ?>"+"/aideaLabs/api/search";
         var companyId = $("#company").val();
         //alert(companyId);
         var jsonObj={email:'abhishekshenoy7@gmail.com',password:'123456'};
         var str=JSON.stringify(jsonObj);
-        var loginApi="http://localhost/aideaLabs/api/login";
+        var loginApi="<?php echo $base_url;  ?>"+"/aideaLabs/api/login";
         $.ajax({
         url:loginApi, 
         data:JSON.stringify(jsonObj),
@@ -370,12 +371,12 @@ $(document).ready(function()
     
     function loadBuilding(dataObj)
     {
-        var api="http://localhost/aideaLabs/api/search";
+        var api="<?php echo $base_url;  ?>"+"/aideaLabs/api/search";
         var companyId = $("#company").val();
         //alert(companyId);
         var jsonObj={email:'abhishekshenoy7@gmail.com',password:'123456'};
         var str=JSON.stringify(jsonObj);
-        var loginApi="http://localhost/aideaLabs/api/login";
+        var loginApi="<?php echo $base_url;  ?>"+"/aideaLabs/api/login";
         $.ajax({
         url:loginApi, 
         data:JSON.stringify(jsonObj),
@@ -391,12 +392,12 @@ $(document).ready(function()
     
     function loadFloor(dataObj)
     {
-        var api="http://localhost/aideaLabs/api/search";
+        var api="<?php echo $base_url;  ?>"+"/aideaLabs/api/search";
         var companyId = $("#company").val();
         //alert(companyId);
         var jsonObj={email:'abhishekshenoy7@gmail.com',password:'123456'};
         var str=JSON.stringify(jsonObj);
-        var loginApi="http://localhost/aideaLabs/api/login";
+        var loginApi="<?php echo $base_url;  ?>"+"/aideaLabs/api/login";
         $.ajax({
         url:loginApi, 
         data:JSON.stringify(jsonObj),
@@ -412,12 +413,12 @@ $(document).ready(function()
     
     function loadLab(dataObj)
     {
-        var api="http://localhost/aideaLabs/api/search";
+        var api="<?php echo $base_url;  ?>"+"/aideaLabs/api/search";
         var companyId = $("#company").val();
         //alert(companyId);
         var jsonObj={email:'abhishekshenoy7@gmail.com',password:'123456'};
         var str=JSON.stringify(jsonObj);
-        var loginApi="http://localhost/aideaLabs/api/login";
+        var loginApi="<?php echo $base_url;  ?>"+"/aideaLabs/api/login";
         $.ajax({
         url:loginApi, 
         data:JSON.stringify(jsonObj),
@@ -433,12 +434,12 @@ $(document).ready(function()
     
     function loadDevice(dataObj)
     {
-        var api="http://localhost/aideaLabs/api/search";
+        var api="<?php echo $base_url;  ?>"+"/aideaLabs/api/search";
         var companyId = $("#company").val();
         //alert(companyId);
         var jsonObj={email:'abhishekshenoy7@gmail.com',password:'123456'};
         var str=JSON.stringify(jsonObj);
-        var loginApi="http://localhost/aideaLabs/api/login";
+        var loginApi="<?php echo $base_url;  ?>"+"/aideaLabs/api/login";
         $.ajax({
         url:loginApi, 
         data:JSON.stringify(jsonObj),
@@ -454,12 +455,12 @@ $(document).ready(function()
     
     function loadDeviceParameters(dataObj)
     {
-        var api="http://localhost/aideaLabs/api/search";
+        var api="<?php echo $base_url;  ?>"+"/aideaLabs/api/search";
         var companyId = $("#company").val();
         //alert(companyId);
         var jsonObj={email:'abhishekshenoy7@gmail.com',password:'123456'};
         var str=JSON.stringify(jsonObj);
-        var loginApi="http://localhost/aideaLabs/api/login";
+        var loginApi="<?php echo $base_url;  ?>"+"/aideaLabs/api/login";
         $.ajax({
         url:loginApi, 
         data:JSON.stringify(jsonObj),
@@ -479,7 +480,7 @@ $(document).ready(function()
     var upload_data_set_interval_id=-99;
     function updateTime()
     {
-        var url="http://localhost/AQMS SIMULATOR/get_param_conc_for_aqi_new.php?get_date_time=1";
+        var url="<?php echo $base_url;  ?>"+"/AQMS SIMULATOR/get_param_conc_for_aqi_new.php?get_date_time=1";
         $.ajax({url: url,
             dataType:'html',
             success: function(result){
@@ -500,7 +501,7 @@ $(document).ready(function()
        
            // alert("device:"+aqmis);
             // var url="http://localhost/AQMS SIMULATOR/get_param_conc_for_aqi_new.php?get_upload_interval=1&aqmi="+aqmi;
-            var url="http://localhost/AQMS SIMULATOR/get_param_conc_for_aqi_new.php?get_upload_interval=1&aqmi="+aqmis; //changes by abhishek 9-28-22
+            var url="<?php echo $base_url;  ?>"+"/AQMS SIMULATOR/get_param_conc_for_aqi_new.php?get_upload_interval=1&aqmi="+aqmis; //changes by abhishek 9-28-22
             $.ajax({
                  url: url,
                 dataType:'html',
@@ -720,7 +721,7 @@ $(document).ready(function()
             {
                 act=1;
             }
-            var url="http://localhost/AQMS SIMULATOR/set_par_values.php?P1="+building+"&P2="+floor+"&P3="+lab+"&P4="+parm+"&P5="+val+"&P6="+id+"&P7="+act+"&P8="+aqmi+"&P9="+dev_mode+"&P10="+access_code+"&P11="+customer+"&P12="+location+"&P13="+branch+"&P14="+facility;
+            var url="<?php echo $base_url;  ?>"+"/AQMS SIMULATOR/set_par_values.php?P1="+building+"&P2="+floor+"&P3="+lab+"&P4="+parm+"&P5="+val+"&P6="+id+"&P7="+act+"&P8="+aqmi+"&P9="+dev_mode+"&P10="+access_code+"&P11="+customer+"&P12="+location+"&P13="+branch+"&P14="+facility;
             //alert(url);
             $.ajax({
                 url: url,
@@ -743,7 +744,7 @@ $(document).ready(function()
         //alert(aqmi);
         
         
-        var url="http://localhost/RDLAQMSSIMULATOR/stop_device.php";
+        var url="<?php echo $base_url;  ?>"+"/RDLAQMSSIMULATOR/stop_device.php";
         $.ajax({
             method:"POST",
             url: url, 
@@ -765,7 +766,7 @@ $(document).ready(function()
                         success: function(result){
                             if(result == 1){
                                 // alert("device started running");
-                                var url="http://localhost/AQMS SIMULATOR/set_config_values.php?uploadInterval="+uploadInterval+"&aqmi="+aqmi;
+                                var url="<?php echo $base_url;  ?>"+"/AQMS SIMULATOR/set_config_values.php?uploadInterval="+uploadInterval+"&aqmi="+aqmi;
                                  $.ajax({
                                     url: url, 
                                     success: function(result){
@@ -789,7 +790,7 @@ $(document).ready(function()
     $("#STOP_DEVICE").on("click",function()
     {
         var aqmi=$("#aqmi").val();
-        var url="http://localhost/RDLAQMSSIMULATOR/stop_device.php";
+        var url="<?php echo $base_url;  ?>"+"/RDLAQMSSIMULATOR/stop_device.php";
          $.ajax({
             method:"POST",
             url: url, 
@@ -813,7 +814,7 @@ $(document).ready(function()
         var val=$("#pref_aqi").val();
         if(val!="")
         {
-            var url="http://localhost/AQMS SIMULATOR/get_param_conc_for_aqi_new.php?sm_aqi_new="+val;
+            var url="<?php echo $base_url;  ?>"+"/AQMS SIMULATOR/get_param_conc_for_aqi_new.php?sm_aqi_new="+val;
             $.ajax({
                 url: url, 
                 dataType:'json',
@@ -866,7 +867,7 @@ $(document).ready(function()
         var floor=$("#floor").val();
         var lab=$("#lab").val();
         var aqmi=$("#aqmi").val();
-        var url="http://localhost/AQMS SIMULATOR/get_param_conc_for_aqi_new.php?clear_data_aqmi="+aqmi+"&building="+building+"&floor="+floor+"&lab="+lab;
+        var url="<?php echo $base_url;  ?>"+"/AQMS SIMULATOR/get_param_conc_for_aqi_new.php?clear_data_aqmi="+aqmi+"&building="+building+"&floor="+floor+"&lab="+lab;
          $.ajax({
             url: url, 
             dataType:'html',

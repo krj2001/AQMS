@@ -11,7 +11,7 @@ function Floor() {
   const { buildingImg } = routeStateObject.state;
   const {locationDetails} = ApplicationStore().getStorage('userDetails');
   const {imageBuildingURL} = locationDetails ;
-  //const imgSrc = `https://localhost/backend/blog/public/${imageBuildingURL || buildingImg}`;
+  //const imgSrc = `http://localhost/backend/blog/public/${imageBuildingURL || buildingImg}`;
   const imgSrc = `${process.env.REACT_APP_API_ENDPOINT}blog/public/${imageBuildingURL || buildingImg}`;
   return (
     <Container maxWidth={false} style={{ marginTop: '16px', height: 'auto', paddingLeft: '24px', paddingRight: '35px' }}>

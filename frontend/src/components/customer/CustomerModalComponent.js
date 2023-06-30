@@ -59,8 +59,8 @@ function CustomerModal({
     setExpireDateReminder(customerData.expireDateReminder || '');
     setPeriodicBackupInterval(customerData.periodicBackupInterval || '');
     setPreviewBuilding(customerData.customerLogo ? `${process.env.REACT_APP_API_ENDPOINT}blog/public/${customerData.customerLogo}?${new Date().getTime()}` : previewImage);
-    //setPreviewBuilding(customerData.customerLogo ? `https://localhost/backend/blog/public/${customerData.customerLogo}?${new Date().getTime()}` : previewImage);
-    //setPreviewBuilding2(customerData.customerLogo ? `https://localhost/backend/blog/public/${customerData.customerImage}?${new Date().getTime()}` : previewImage);
+    //setPreviewBuilding(customerData.customerLogo ? `http://localhost/backend/blog/public/${customerData.customerLogo}?${new Date().getTime()}` : previewImage);
+    //setPreviewBuilding2(customerData.customerLogo ? `http://localhost/backend/blog/public/${customerData.customerImage}?${new Date().getTime()}` : previewImage);
     setPreviewBuilding2(customerData.customerLogo ? `${process.env.REACT_APP_API_ENDPOINT}blog/public/${customerData.customerImage}?${new Date().getTime()}` : previewImage);
     setCustomerLogo('');
   };

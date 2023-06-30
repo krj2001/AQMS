@@ -192,7 +192,7 @@ function DrawerObject() {
   useEffect(() => {
     if (userDetails.companyLogo) {
       // setCompanyLogo(`http://wisething.in/Aqms/blog/public/${userDetails.companyLogo}?${new Date().getTime()}`);
-      // setCompanyLogo(`https://localhost/backend/blog/public/${userDetails.companyLogo}`);
+      // setCompanyLogo(`http://localhost/backend/blog/public/${userDetails.companyLogo}`);
       setCompanyLogo(
         `http://localhost/aideaLabs/blog/public/${userDetails.companyLogo}`
       );

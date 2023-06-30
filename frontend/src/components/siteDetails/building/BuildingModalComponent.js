@@ -50,7 +50,7 @@ function BuildingModal({
     setBuildingId(editData.id || '');
     setBuildingTag(editData.buildingTag || '');
     setBuildingTotalFloors(editData.buildingTotalFloors || '');
-    // setPreviewBuilding(editData.buildingImg ? `https://localhost/backend/blog/public/${editData.buildingImg}` : previewImage);
+    // setPreviewBuilding(editData.buildingImg ? `http://localhost/backend/blog/public/${editData.buildingImg}` : previewImage);
     setPreviewBuilding(editData.buildingImg ? `${process.env.REACT_APP_API_ENDPOINT}blog/public/${editData.buildingImg}` : previewImage);
     setMarkerLng(parseFloat(coordinates[0]));
     setMarkerLat(parseFloat(coordinates[1]));

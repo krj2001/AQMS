@@ -49,7 +49,7 @@ function Dashboard() {
   const [locationCoordinationList, setLocationCoordinationList] = useState([]);
   const [locationState, setProgressState] = useState(0);
   const [Img, setImg] = useState('');
-  // const imgSrc = `https://localhost/backend/blog/public/${Img}`;
+  // const imgSrc = `http://localhost/backend/blog/public/${Img}`;
   const imgSrc = `${process.env.REACT_APP_API_ENDPOINT}blog/public/${Img}`;
   const [ImageState, setImageState] = useState(0);
   const [deviceCoordsList, setDeviceCoordsList] = useState([]);

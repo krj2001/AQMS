@@ -41,7 +41,7 @@ function LabModal({
     setLabDepName(editData.labDepName || '');
     setLabId(editData.id || '');
     setLabCords(editData.labCords || '');
-    //setPreviewLab(editData.labDepMap ? `https://localhost/backend/blog/public/${editData.labDepMap}` : previewImage);
+    //setPreviewLab(editData.labDepMap ? `http://localhost/backend/blog/public/${editData.labDepMap}` : previewImage);
     setPreviewLab(editData.labDepMap ? `${process.env.REACT_APP_API_ENDPOINT}blog/public/${editData.labDepMap}` : previewImage);
   };
   const handleSubmit = async (e) => {
